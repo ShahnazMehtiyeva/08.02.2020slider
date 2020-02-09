@@ -1,0 +1,136 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* .frame{
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+.lent{
+    display: flex;
+    position: relative;
+    transition: 0.5s all;
+    right: 0;
+}
+.lent div{
+    width: 100vw;
+}
+.lent img{
+    max-width: 100%;
+}
+
+.left-btn{
+    position: absolute;
+    top: 33%;
+    left: 2%;
+    font-size: 50px;
+    color: white;
+    
+}
+
+.right-btn{
+    position: absolute;
+    top: 33%;
+    right: 2%;
+    font-size: 50px;
+    color: white;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+li{
+    margin: 0 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+.active{
+    background-color: white;
+} */
+
+
+
+/* second slide */
+
+
+.conatiner{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.top img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: none
+}
+
+.top div{
+    position: absolute;
+    top: 0;
+    width: 800px;
+    height: 400px;
+}
+
+.left-btn{
+    position: absolute;
+    top: 24%;
+    left: 26%;
+    font-size: 50px;
+    color: white;
+    
+}
+
+.right-btn{
+    position: absolute;
+    top: 24%;
+    right: 26%;
+    font-size: 50px;
+    color: white;
+}
+
+
+.bottom{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    right: 25%;
+    top: 43%;
+}
+
+.bottom img{
+    width: 100%;
+    object-fit: contain;
+}
+.active{
+    display: block !important;
+}
+
+
